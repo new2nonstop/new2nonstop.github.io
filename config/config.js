@@ -1,10 +1,10 @@
 
-import profile from './profile.png';
+import picture from './TNSII.jpg';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "New To NonStop",
   links: [
     {
       title: "About",
@@ -22,41 +22,42 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
+    // {
+    //   title: "Blog",
+    //   link: "https://medium.com/@hashirshoaeb",
+    // }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
-  image: profile.src,
+  title: "New to NonStop",
+  description: "A cross-organisation initiative designed to support HPE NonStop, the product we love.",
+  image: picture.src,
   buttons: [
     {
-      title: "Contact Me",
+      title: "Contact Us",
       link: "#contact",
-      isPrimary: true,
-    },
-    {
-      title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
       isPrimary: false,
     },
+    // {
+    //   title: "Resume",
+    //   link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    //   isPrimary: false,
+    // },
   ],
 }
 
 export const about = {
-  title: "Who I am",
+  title: "Who We Are",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "Mission"
+    // "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
+    // "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
+    // "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
   ],
 }
 
 export const work = {
-  title: "What I do",
+  title: "What We do",
   cards: [
     {
       title: "Mobile App Development",
@@ -108,7 +109,7 @@ export const projects = {
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://nsu40.github.io/nonstop101/",
         },
       ]
     },
@@ -135,13 +136,13 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  title: "New2NonStop",
   description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-  image: profile.src,
+  image: picture.src,
 }
 
 export const links = {
-  image: profile.src,
+  image: picture.src,
   title: "@hashirshoaeb",
   description: "Computer Engineer | Flutter | Reactjs Developer",
   cards: [
