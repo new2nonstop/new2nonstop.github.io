@@ -2,9 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
-export const Skills = ({ title, cards }) => {
+export const Programs = ({ title, cards }) => {
 	return (
-		<div id="skills" className="bg-secondary py-5 px-5">
+		<div id="programs" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
@@ -23,7 +23,7 @@ export const Skills = ({ title, cards }) => {
 
 export const Projects = ({ title, cards }) => {
 	return (
-		<div id="projects" className="bg-primary py-5 px-5">
+		<div id="programs" className="bg-primary py-5 px-5">
 			<div className="container">
 				<h1 className="text-light fw-bold">Projects</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
@@ -50,15 +50,54 @@ export const Card = ({ title, description, link, icons }) => {
 				<h4 className="text-primary">{title}</h4>
 				<p className="text-dark">{description}</p>
 				<div className="text-end">
-					{icons && icons.map((value, index) => (
+					{/* {icons && icons.map((value, index) => (
 						<Link key={index} href={value.link}>
 							<a target="_blank" rel="noreferrer">
 								<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
 							</a>
 						</Link>
-					))}
+					))} */}
 				</div>
 			</a>
+		</div>
+	);
+}
+
+export const Buddy = ({ title, description, image, buttons }) => {
+	return (
+		<div id="buddy" className="bg-primary py-5 px-5">
+			<div className="container">
+				<div className=" row align-items-center">
+					<div className="col-sm-6">
+						{/* <h1 className="text-primary fw-bold display-3">{title}</h1> */}
+						<h1 className="text-light fw-bold">{title}</h1>
+						<div className="text-secondary px-sm-5">
+							{description.map((value, index) => (
+								<p key={index} >{value}</p>
+							))}
+						</div>
+						<div className="text-center">
+							{buttons.map((value, index) => (
+								(value.isPrimary) ?
+									<Link key={index} href={value.link}>
+										<a className="btn btn-primary my-1 mx-3">{value.title}</a>
+									</Link>
+									:
+									<Link key={index} href={value.link}>
+										<a target="_blank" rel="noreferrer" className="btn btn-light my-1 mx-3">{value.title}</a>
+									</Link>
+							))}
+						</div>
+					</div>
+					<div className="col-sm-6 text-center">
+						<img
+							className="img-fluid my-3 card-image" width="600"
+							height="250" src={image}
+							alt="timeline of buddy program"
+						/>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }

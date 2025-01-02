@@ -1,5 +1,6 @@
 
 import picture from './TNSII.jpg';
+import comingsoon from './coming-soon.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,8 +12,12 @@ export const navigation = {
       link: "#about",
     },
     {
-      title: "Projects",
-      link: "#projects",
+      title: "Programs",
+      link: "#programs",
+    },
+    {
+      title: "Buddy",
+      link: "#buddy",
     },
     {
       title: "Contact",
@@ -34,15 +39,19 @@ export const intro = {
   image: picture.src,
   buttons: [
     // NonStop 101, Social Media
-
+    // {
+    //   title: "Buddy",
+    //   link: "#buddy",
+    //   isPrimary: false,
+    // },
     {
-      title: "NonStop 101",
+      title: "Socials",
       link: "https://nsu40.github.io/nonstop101/",
       isPrimary: false,
     },
     {
-      title: "Our LinkedIn",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      title: "NonStop 101",
+      link: "https://nsu40.github.io/nonstop101/",
       isPrimary: false,
     },
   ],
@@ -56,9 +65,6 @@ export const about = {
     "2. Education",
     "3. Information Sharing from the NonStop Community."
 
-    // "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    // "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    // "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
   ],
 }
 
@@ -67,8 +73,8 @@ export const work = {
   cards: [
     {
       title: "Buddy",
-      description: "First time on the NonStop? Get connected with a global network of experienced professionals through our 8-week mentorship program.",
-      link: "#",
+      description: "First time on the NonStop? Get connected with a global network of experienced professionals through our 8-week mentorship program. More information below.",
+      link: "#buddy",
       icons: null,
     },
     {
@@ -86,6 +92,29 @@ export const work = {
   ],
 }
 
+export const buddy = {
+  title: "Buddy Program",
+  description: [
+    "Joining an experienced team can feel a little intimidating at times.",
+    "That's why we're here to match the community's newest NonStop users to a mentor you'd like to be sometime later in your career.",
+    "Whether you're in the hustliing part of your career or entering the cruising stages of your profession, join us in building our Next Generation of NonStop users."
+  ],
+  image: comingsoon.src,
+  buttons: [
+    {
+      title: "Join as Mentor",
+      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Mentor%20Signup",
+      isPrimary: false,
+    },
+    {
+      title: "Join as Mentee",
+      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Mentee%20Interest",
+      isPrimary: false,
+    },
+  ]
+}
+
+// not in use
 export const projects = {
   title: "Projects",
   cards: [
@@ -155,6 +184,7 @@ export const SEO = {
   image: picture.src,
 }
 
+// quick links
 export const links = {
   image: picture.src,
   title: "@hashirshoaeb",

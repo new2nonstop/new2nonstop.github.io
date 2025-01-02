@@ -27,7 +27,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 					</div>
 					<div className="col-sm-6 text-center">
 						<img
-							className="img-fluid my-3 card-image" width="250"
+							className="img-fluid my-3 card-image" width="450"
 							height="250" src={image}
 							alt="profile of hashirshoaeb"
 						/>
