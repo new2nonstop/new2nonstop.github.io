@@ -1,5 +1,6 @@
 
 import picture from './TNSII.jpg';
+import logo from "./hpe.png"
 import comingsoon from './coming-soon.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
@@ -19,18 +20,18 @@ export const navigation = {
       title: "Buddy",
       link: "#buddy",
     },
-    {
-      title: "Contact",
-      link: "#contact",
-    },
-    {
-      title: "Links",
-      link: "/links",
-    },
+    // {
+    //   title: "Links",
+    //   link: "/links",
+    // },
     {
       title: "NonStop 101",
       link: "https://nsu40.github.io/nonstop101/",
-    }
+    },
+    // {
+    //   title: "Contact",
+    //   link: "#contact",
+    // },
   ],
 }
 export const intro = {
@@ -160,17 +161,25 @@ export const projects = {
 }
 
 export const contact = {
-  title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  title: "Interested in Our Initiatives?",
+  description: [
+    "We're a international group of HPE NonStop product junkies who are committed to making NonStop more accessible. It is really such a shame if people and organisations were missing out on the cool benefits of the NonStop.",
+    "We're not paid extra either, but hey - we're autonomous and the adults are letting us do what what we want so we're gonna go ahead with it.",
+  ],
   buttons: [
     {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
-      isPrimary: true,
+      title: "Join Us as Product Junkie",
+      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Committee%20Interest",
+      isPrimary: false,
     },
     {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      title: "Lead One of Our Programs",
+      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Program%20Lead%20Interest",
+      isPrimary: false,
+    },
+    {
+      title: "Stalk Us from LinkedIn",
+      link: "#",
       isPrimary: false,
     },
   ]
@@ -179,14 +188,14 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "New2NonStop",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-  image: picture.src,
+  title: "New To NonStop",
+  description: "A cross-organisation initiative designed to support HPE NonStop, the product we love.",
+  image: logo.src,
 }
 
 // quick links
 export const links = {
-  image: picture.src,
+  image: logo.src,
   title: "@hashirshoaeb",
   description: "Computer Engineer | Flutter | Reactjs Developer",
   cards: [

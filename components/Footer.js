@@ -7,7 +7,11 @@ export const Contact = ({ title, description, buttons }) => {
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">
-					<p>{description}</p>
+					<div className="">
+						{description.map((value, index) => (
+							<p key={index} >{value}</p>
+						))}
+					</div>
 					<div className="">
 						{buttons.map((value, index) => (
 							(value.isPrimary) ?
