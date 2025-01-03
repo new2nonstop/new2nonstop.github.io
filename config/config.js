@@ -1,4 +1,3 @@
-
 import picture from './TNSII.jpg';
 import logo from "./hpe.png"
 import comingsoon from './coming-soon.png';
@@ -26,7 +25,7 @@ export const navigation = {
     // },
     {
       title: "NonStop 101",
-      link: "https://nsu40.github.io/nonstop101/",
+      link: "https://new2nonstop.github.io/nonstop101/",
     },
     // {
     //   title: "Contact",
@@ -46,13 +45,13 @@ export const intro = {
     //   isPrimary: false,
     // },
     {
-      title: "Socials",
-      link: "https://nsu40.github.io/nonstop101/",
+      title: "Socials - Coming Soon",
+      link: "#",
       isPrimary: false,
     },
     {
       title: "NonStop 101",
-      link: "https://nsu40.github.io/nonstop101/",
+      link: "https://new2nonstop.github.io/nonstop101/",
       isPrimary: false,
     },
   ],
@@ -62,9 +61,10 @@ export const about = {
   title: "Who We Are",
   description: [
     "We are a team of customers, partners, vendors and HPE team members coming together to bring HPE NonStop awareness to a new generation of professionals by fostering professional development through: ",
+    "",
     "1. Relationship Building",
     "2. Education",
-    "3. Information Sharing from the NonStop Community."
+    "3. Information Sharing from the NonStop Community"
 
   ],
 }
@@ -79,7 +79,7 @@ export const work = {
       icons: null,
     },
     {
-      title: "Socials",
+      title: "Socials - Coming Soon",
       description: "Stay up to date on our LinkedIn page with our activities around the world! Connect with us on LinkedIn to join a chapter near you for local activities.",
       link: "#",
       icons: null,
@@ -87,7 +87,7 @@ export const work = {
     {
       title: "NonStop 101",
       description: "Find our New To NonStop tech and architecture guide, documentation and some tutorials we made to make our jobs easier.",
-      link: "https://nsu40.github.io/nonstop101/",
+      link: "https://new2nonstop.github.io/nonstop101/",
       icons: null,
     }
   ],
