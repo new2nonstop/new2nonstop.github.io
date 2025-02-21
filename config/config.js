@@ -35,7 +35,7 @@ export const navigation = {
 }
 export const intro = {
   title: "New to NonStop",
-  description: "A cross-organisation initiative designed to support HPE NonStop, the product we love.",
+  description: "A cross-organisation initiative designed to support the growth and development of those new to HPE NonStop, across our whole ecosystem including partners and customers.",
   image: picture.src,
   buttons: [
     // NonStop 101, Social Media
@@ -45,8 +45,8 @@ export const intro = {
     //   isPrimary: false,
     // },
     {
-      title: "Socials - Coming Soon",
-      link: "#",
+      title: "Socials",
+      link: "https://www.linkedin.com/groups/13179042/",
       isPrimary: false,
     },
     {
@@ -58,9 +58,9 @@ export const intro = {
 }
 
 export const about = {
-  title: "Who We Are",
+  title: "Who are We?",
   description: [
-    "We are a team of customers, partners, vendors and HPE team members coming together to bring HPE NonStop awareness to a new generation of professionals by fostering professional development through: ",
+    "We are a NonStop user group, focused on empowering the next generation of talent to give them easy access to resources, mentorship, and the community needed to thrive in their NonStop careers. Our focus will be on: ",
     "",
     "1. Relationship Building",
     "2. Education",
@@ -74,14 +74,14 @@ export const work = {
   cards: [
     {
       title: "Buddy",
-      description: "First time on the NonStop? Get connected with a global network of experienced professionals through our 8-week mentorship program. More information below.",
+      description: "First time on the NonStop? Get connected with a global network of experienced professionals through our 8-week mentorship program.",
       link: "#buddy",
       icons: null,
     },
     {
-      title: "Socials - Coming Soon",
-      description: "Stay up to date on our LinkedIn page with our activities around the world! Connect with us on LinkedIn to join a chapter near you for local activities.",
-      link: "#",
+      title: "Socials",
+      description: "Join our LinkedIn group to stay updated with our worldwide activities, upcoming events, plus news and resources.",
+      link: "https://www.linkedin.com/groups/13179042/",
       icons: null,
     },
     {
@@ -96,20 +96,20 @@ export const work = {
 export const buddy = {
   title: "Buddy Program",
   description: [
-    "Joining an experienced team can feel a little intimidating at times.",
-    "That's why we're here to match the community's newest NonStop users to a mentor you'd like to be sometime later in your career.",
-    "Whether you're in the hustliing part of your career or entering the cruising stages of your profession, join us in building our Next Generation of NonStop users."
+    "Entering a new industry can be intimidating.",
+    "Join our Buddy Program to connect with a mentor that can share their experiences and help as a guide.",
+    "For those interested in being a buddy to newer members, join us in building the Next Generation of NonStop users."
   ],
   image: comingsoon.src,
   buttons: [
     {
       title: "Join as Mentor",
-      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Mentor%20Signup",
+      link: "https://forms.gle/geBuXwSx1s4BDB979",
       isPrimary: false,
     },
     {
       title: "Join as Mentee",
-      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Mentee%20Interest",
+      link: "https://forms.gle/7m39chcrfZZgkdBJ8",
       isPrimary: false,
     },
   ]
@@ -163,23 +163,23 @@ export const projects = {
 export const contact = {
   title: "Interested in Our Initiatives?",
   description: [
-    "We're a international group of HPE NonStop product junkies who are committed to making NonStop more accessible. It is really such a shame if people and organisations were missing out on the cool benefits of the NonStop.",
-    "We're not paid extra either, but hey - we're autonomous and the adults are letting us do what what we want so we're gonna go ahead with it.",
+    // "We're a international group of HPE NonStop product junkies who are committed to making NonStop more accessible. It is really such a shame if people and organisations were missing out on the cool benefits of the NonStop.",
+    // "We're not paid extra either, but hey - we're autonomous and the adults are letting us do what what we want so we're gonna go ahead with it.",
   ],
   buttons: [
+    // {
+    //   title: "Join Our Community",
+    //   link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Committee%20Interest",
+    //   isPrimary: false,
+    // },
     {
-      title: "Join Us as Product Junkie",
-      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Committee%20Interest",
+      title: "Lead Our Community Programs",
+      link: "https://forms.gle/5GG8yaZ27TdNeKc6A",
       isPrimary: false,
     },
     {
-      title: "Lead One of Our Programs",
-      link: "mailto:shanice.abigail@hpe.com?subject=N2NS%20-%20Program%20Lead%20Interest",
-      isPrimary: false,
-    },
-    {
-      title: "Stalk Us from LinkedIn",
-      link: "#",
+      title: "Connect on LinkedIn",
+      link: "https://www.linkedin.com/groups/13179042/",
       isPrimary: false,
     },
   ]
