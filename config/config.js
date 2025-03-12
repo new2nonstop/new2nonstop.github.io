@@ -60,7 +60,7 @@ export const intro = {
 export const about = {
   title: "Who are We?",
   description: [
-    "We are a NonStop user group, focused on empowering the next generation of talent to give them easy access to resources, mentorship, and the community needed to thrive in their NonStop careers. Our focus will be on: ",
+    "We are a NonStop initiative focused on empowering the next generation of talent to give them easy access to resources, mentorship, and the community needed to thrive in their NonStop careers. Our focus will be on: ",
     "",
     "1. Relationship Building",
     "2. Education",
