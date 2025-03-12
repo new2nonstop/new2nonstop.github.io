@@ -1,4 +1,4 @@
-PROJECT LOGO
+<!-- PROJECT LOGO
 <br />
 <p align="center">
   <h1 align="center">Developer's Portfolio ✨</h1>
@@ -23,9 +23,9 @@ PROJECT LOGO
 [![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 [![Node Version](https://img.shields.io/static/v1?label=Node&message=16.16.0&color=026e00&style=for-the-badge)](https://nodejs.org)
 [![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
-
-
-<!-- TABLE OF CONTENTS -->
+ -->
+<!-- 
+TABLE OF CONTENTS
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -43,12 +43,12 @@ PROJECT LOGO
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
-</details>
+</details> -->
 
-
+<!-- 
 
 <!-- ABOUT THE PROJECT -->
-# About The Project
+<!-- # About The Project
 
 [![Product Name Screen Shot](/READMEdocs/screenshot.gif)](https://example.com)
 
@@ -64,14 +64,14 @@ I know one template doesn't fulfill everyone's needs. So I'll try adding more fe
 - [x] Lightweight
 - [x] Linktree Page
 
-**Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com).
+**Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com). --> -->
 
 
 
 <!-- GETTING STARTED -->
-# Getting Started
+<!-- # Getting Started
 
-Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project.
+Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project. -->
 
 ## Prerequisites
 
@@ -119,7 +119,7 @@ Create a new repository with your username as `<your-username>.github.io`. And l
 ```
 
 Your site will be available at `https://<your-username>.github.io`
-
+<!-- 
 >Note: You need to replace `<your-username>` with your username. To add CNAME for custom domain, see [scripts/cname.js](https://github.com/hashirshoaeb/portfolio/blob/main/scripts/cname.js)
 
 # Support my work
@@ -131,7 +131,7 @@ If you found this project valuable, please consider giving it a ⭐️ on GitHub
  </div>
 
 <!-- CONTRIBUTING -->
-# Contributing
+<!-- # Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contribution you make would be **appreciated**.
 
@@ -140,7 +140,7 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
+ --> -->
 
 
 <!-- LICENSE -->
