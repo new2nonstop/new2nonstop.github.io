@@ -64,7 +64,7 @@ I know one template doesn't fulfill everyone's needs. So I'll try adding more fe
 - [x] Lightweight
 - [x] Linktree Page
 
-**Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com). --> -->
+**Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com). -->
 
 
 
@@ -72,6 +72,8 @@ I know one template doesn't fulfill everyone's needs. So I'll try adding more fe
 <!-- # Getting Started
 
 Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project. -->
+
+# New2NonStop Home Page
 
 ## Prerequisites
 
